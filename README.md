@@ -1,8 +1,13 @@
 # foldmap
 
-functions are in module function.py
+## Aim
+Calculate the surface fold for 3D seismic survey and produce shp files to be plotted in QGIS.
 
-use the functions in the main python module main.py or call them in GUI (TO DO).
+## How does it work 
+Functions are in module function.py
+Call the the functions in the main python module main.py or call them in GUI (TO DO).
+
+Yaml file is provided to get conda env.
 
 parameters of the seismic survey can be entered in json file
 
@@ -20,3 +25,6 @@ parameters of the seismic survey can be entered in json file
 - stand-alone GUI
 - QGIS plug-in
 - save parameters in project folder
+- add vertical stacking?
+- add distribution of azimuths?
+- minimum offset in bins?
